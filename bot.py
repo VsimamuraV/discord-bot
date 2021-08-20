@@ -6,8 +6,8 @@ from asyncio import sleep
 import requests
 import datetime
 
-TOKEN = os.environ.get('')
-VC_ID = os.environ.get('')
+TOKEN = os.environ.get('DISCORD_TOKEN')
+VC_ID = os.environ.get('VOICECHAT_ID')
 
 def spla2API(rule):
     match = rule
